@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+
+		.hero {
+            display: inline-block;
+            justify-content: left;
+            align-items: center;
+            /* height: 100px; */
+            width: 1000px;
+            background-color: #f0f0f0;
+            float: left;
+        }
+
+        .hero img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .explore-button {
+            padding: 10px 20px;
+            background-color: #e60023;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18px;
+        }
